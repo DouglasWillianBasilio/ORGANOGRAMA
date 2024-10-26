@@ -1,0 +1,45 @@
+[
+  {
+    "name": "João Silva",
+    "cargo": "Diretor",
+    "descricao": "Diretor Executivo",
+    "subordinados": [
+      {
+        "name": "Maria Souza",
+        "cargo": "Gerente",
+        "descricao": "Gerente de Vendas",
+        "subordinados": []
+      },
+      {
+        "name": "Carlos Pereira",
+        "cargo": "Gerente",
+        "descricao": "Gerente de Marketing",
+        "subordinados": [
+          {
+            "name": "Jorge",
+            "cargo": "ads",
+            "descricao": "Gerente de Marketing",
+            "subordinados": [{
+              "name": "Pedro",
+              "cargo": "teste",
+              "descricao": "Gerente de",
+              "subordinados": []
+            }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ana Oliveira",
+    "cargo": "Analista",
+    "descricao": "Analista de Dados",
+    "subordinados": []
+  },
+  {
+    "name": "Fernanda Lima",
+    "cargo": "Assistente",
+    "descricao": "Assistente Administrativa",
+    "subordinados": []
+  }
+]

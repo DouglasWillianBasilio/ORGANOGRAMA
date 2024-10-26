@@ -1,0 +1,102 @@
+/* src/App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .App {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-input,
+  .search-button,
+  .theme-toggle {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .theme-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .theme-toggle:hover {
+    background-color: #0056b3;
+  }
+  
+  .dark {
+    background-color: #333;
+    color: #f4f4f4;
+  }
+  
+  .dark h1 {
+    color: #f4f4f4;
+  }
+  
+  .dark .search-input,
+  .dark .search-button,
+  .dark .theme-toggle {
+    border: 1px solid #666;
+    background-color: #555;
+    color: #f4f4f4;
+  }
+  
+  .dark .search-button:hover {
+    background-color: #007bff;
+  }
+  
+  .node {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .dark .node {
+    background-color: #444;
+    border-color: #666;
+  }
+  
+  .node-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .node-details {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .dark .node-details {
+    color: #aaa; /* Alterar a cor do texto no modo escuro */
+  }
+  
+  .subordinates {
+    margin-left: 20px;
+  }
+  
+  .subordinate {
+    margin-left: 20px;
+  }
+  

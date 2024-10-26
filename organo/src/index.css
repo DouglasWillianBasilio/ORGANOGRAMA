@@ -1,0 +1,43 @@
+/* index.css */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte moderna */
+    background-color: #f4f6f9; /* Cor de fundo suave */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2980b9; /* Azul do Itaú */
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 300px; /* Largura do campo de busca */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    padding: 10px 15px;
+    background-color: #e67e22; /* Laranja do Itaú */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #d35400; /* Tom mais escuro do laranja */
+  }
+  

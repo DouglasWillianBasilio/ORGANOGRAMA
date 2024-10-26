@@ -1,0 +1,140 @@
+/* Reseta e estilos básicos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+  header p {
+    font-size: 1em;
+    opacity: 0.8;
+  }
+  
+  main {
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    background-color: #f1f1f1;
+    color: #666;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  /* Organograma */
+  #organograma {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  /* Nó do Organograma */
+  .node {
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px auto;
+    background-color: #e6f4ff;
+    border: 1px solid #007acc;
+    position: relative;
+    text-align: center;
+    min-width: 150px;
+    z-index: 1; /* Eleva o nó e o botão para frente */
+  }
+  
+  .node-header h3 {
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  .node-header p {
+    font-size: 0.85em;
+    color: #555;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #007acc;
+    transition: color 0.3s;
+    z-index: 2; /* Garante que o botão esteja à frente das linhas */
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    color: #005f99;
+  }
+  
+  /* Exibição de Subordinados */
+  .subordinados {
+    display: none;
+    margin-top: 20px;
+    position: relative;
+    padding-left: 40px;
+  }
+  
+  
+  .subordinados .node:before {
+    top: -20px;
+    left: -30px; /* Afasta um pouco a linha do botão */
+    border-top: 2px solid #007acc;
+  }
+  
+  .subordinados .node:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30px;
+    height: calc(100% + 20px);
+    border-left: 2px solid #007acc;
+    z-index: 0; /* Mantém a linha atrás */
+  }
+  
+  /* Animação */
+  @keyframes slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

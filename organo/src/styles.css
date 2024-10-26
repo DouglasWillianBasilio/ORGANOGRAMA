@@ -1,0 +1,53 @@
+/* Estrutura básica */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5em; /* Tamanho da fonte aumentado para um destaque maior */
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.2em; /* Aumentado para melhor legibilidade */
+  opacity: 0.9; /* Aumentar opacidade para um melhor contraste */
+}
+
+main {
+  width: 100%;
+  max-width: 1200px; /* Largura máxima aumentada */
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  background-color: #f1f1f1;
+  color: #666;
+  width: 100%;
+  position: fixed; /* Manter o footer na parte inferior */
+  bottom: 0;
+  left: 0;
+}

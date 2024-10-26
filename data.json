@@ -1,0 +1,29 @@
+[
+    {
+      "nome": "Carlos",
+      "cargo": "CEO",
+      "descricao": "Responsável pela empresa",
+      "subordinados": [
+        {
+          "nome": "Ana",
+          "cargo": "Diretora de TI",
+          "descricao": "Gerencia toda a área de TI",
+          "subordinados": [
+            {
+              "nome": "Marcos",
+              "cargo": "Gerente de Projetos",
+              "descricao": "Gerencia projetos",
+              "subordinados": []
+            }
+          ]
+        },
+        {
+          "nome": "Roberto",
+          "cargo": "Diretor Financeiro",
+          "descricao": "Responsável pelo setor financeiro",
+          "subordinados": []
+        }
+      ]
+    }
+  ]
+  
