@@ -49,6 +49,7 @@ function App() {
           <option value="">Todos os cargos</option>
           <option value="Gerente">Gerente</option>
           <option value="Analista">Analista</option>
+          <option value="Desenvolvedor">Desenvolvedor</option>
           {/* Adicione outros cargos conforme necessário */}
         </select>
         <button className="search-button">Pesquisar</button>
