@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Node from './components/Node';
@@ -49,7 +48,7 @@ function App() {
           <option value="">Todos os cargos</option>
           <option value="Gerente">Gerente</option>
           <option value="Analista">Analista</option>
-          <option value="Desenvolvedor">Desenvolvedor</option>
+          <option value="Analista">Desenvolvedor</option>
           {/* Adicione outros cargos conforme necessário */}
         </select>
         <button className="search-button">Pesquisar</button>

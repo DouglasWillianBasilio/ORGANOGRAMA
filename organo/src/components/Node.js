@@ -1,4 +1,3 @@
-// components/Node.js
 import React, { useState } from 'react';
 import './Node.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
